@@ -1,0 +1,35 @@
+/* Rival stylesheet generated from the four HTML pages only. */
+body {
+  margin: 0;
+  background: beige;
+  color: #222;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+.site-header {
+  padding: 24px;
+  background: navy;
+  color: white;
+}
+.brand { color: white; font-size: 1.4rem; font-weight: bold; text-decoration: none; }
+.nav-list { display: flex; flex-wrap: wrap; gap: 16px; margin: 16px 0 0; padding: 0; list-style: none; }
+.nav-list a { color: white; text-decoration: none; }
+.nav-list a:hover { color: yellow; text-decoration: underline; }
+.nav-list a[aria-current="page"] { font-weight: bold; }
+.page-shell { max-width: 1100px; margin: 0 auto; padding: 48px 24px; }
+h1, h2, h3 { color: #17324d; line-height: 1.2; }
+h1 { font-size: 3rem; }
+.intro { max-width: 650px; font-size: 1.2rem; }
+.eyebrow, .project-label { color: teal; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; }
+.card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.project-grid { grid-template-columns: repeat(3, 1fr); }
+.card { padding: 28px; margin-bottom: 20px; background: white; border: 1px solid lightgray; border-radius: 12px; box-shadow: 0 4px 12px #0002; }
+.hero { padding: 64px 48px; background: #e6f2f2; }
+.button { display: inline-block; margin: 8px 8px 8px 0; padding: 12px 20px; border: 0; border-radius: 5px; background: teal; color: white; font-weight: bold; text-decoration: none; }
+.button:hover { background: navy; }
+.button-secondary { background: white; color: navy; border: 2px solid navy; }
+.callout { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-top: 48px; padding: 28px; background: #d9e9e8; }
+.text-link { color: navy; font-weight: bold; }
+.skill-list, .site-footer { color: #444; }
+.site-footer { margin-top: 48px; padding: 24px; background: #eee; text-align: center; }
+a:focus { outline: 2px solid orange; }
